@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T02:24:53.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="0GWVwIcW0ySMuma7hJIr" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T03:04:13.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YRATrRfwM6uAodjnL6b5" version="24.2.5" type="github">
   <diagram name="第 1 页" id="0PLpO4RYV99z5YLLDs7X">
-    <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,6 +64,91 @@
         </mxCell>
         <mxCell id="qlvhVwOaRwVuwZg9zW7u-27" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="113" y="399" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-28" target="qlvhVwOaRwVuwZg9zW7u-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-28" value="test_flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="15" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-30" target="qlvhVwOaRwVuwZg9zW7u-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-30" value="reboot dev first to make sure the test is run in pure linux" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="99" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-31" target="qlvhVwOaRwVuwZg9zW7u-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-31" value="&lt;div&gt;open kernel timestamp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="183" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-32" target="qlvhVwOaRwVuwZg9zW7u-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-32" value="&lt;div&gt;redirect kmsg to memory file and abandon the kmsg before test case run&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="269" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-33" target="qlvhVwOaRwVuwZg9zW7u-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-33" target="qlvhVwOaRwVuwZg9zW7u-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-33" value="&lt;div&gt;run aov demo in test mode&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="354" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-34" target="qlvhVwOaRwVuwZg9zW7u-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-34" value="&lt;div&gt;send serial cmd “a” to aov demo to run&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;low_fps-&amp;gt;low_fps scenarios&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and quit aov demo after a while&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="455" width="169.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-35" target="qlvhVwOaRwVuwZg9zW7u-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-35" target="qlvhVwOaRwVuwZg9zW7u-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-35" value="&lt;div&gt;redirect kmsg to memory file&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="576" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-36" target="qlvhVwOaRwVuwZg9zW7u-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-36" value="&lt;div&gt;cat memory file and parse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cmd &quot;a&quot; will run suspend/resume twice, get the second str time, include suspend_entry, suspend_exit and app_resum&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="682" width="169.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-38" target="qlvhVwOaRwVuwZg9zW7u-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="552" />
+              <mxPoint x="517" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-38" value="&lt;div&gt;send serial cmd &quot;b&quot; to aov demo to run&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;high_fps-&amp;gt;low_fps scenarios&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;and quit aov demo after a while&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="636" y="455" width="169.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-39" target="qlvhVwOaRwVuwZg9zW7u-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="721" y="811" />
+              <mxPoint x="517" y="811" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-39" value="&lt;div&gt;cat memory file and parse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cmd &quot;b&quot; will&amp;nbsp; run suspend/resume once, get the str time,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;include suspend_entry, suspend_exit and app_resum&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="636" y="682" width="169.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlvhVwOaRwVuwZg9zW7u-41" target="qlvhVwOaRwVuwZg9zW7u-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-41" value="&lt;div&gt;cat booting_time and parse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;get ipl_resume_time and kernel_resume_time&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="833" width="169.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlvhVwOaRwVuwZg9zW7u-42" value="judge parsed time info and return test result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="920" width="169.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
